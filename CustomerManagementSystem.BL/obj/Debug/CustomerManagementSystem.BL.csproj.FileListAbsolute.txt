@@ -1,0 +1,6 @@
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\CustomerManagementSystem.BL\bin\Debug\CustomerManagementSystem.BL.dll
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\CustomerManagementSystem.BL\bin\Debug\CustomerManagementSystem.BL.pdb
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\CustomerManagementSystem.BL\obj\Debug\CustomerManagementSystem.BL.csproj.AssemblyReference.cache
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\CustomerManagementSystem.BL\obj\Debug\CustomerManagementSystem.BL.csproj.CoreCompileInputs.cache
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\CustomerManagementSystem.BL\obj\Debug\CustomerManagementSystem.BL.dll
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\CustomerManagementSystem.BL\obj\Debug\CustomerManagementSystem.BL.pdb

@@ -1,0 +1,16 @@
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\Tests\ACM.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\Tests\ACM.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\Tests\ACM.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\Tests\ACM.BLTest\bin\Debug\ACM.BLTest.dll
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\Tests\ACM.BLTest\bin\Debug\ACM.BLTest.pdb
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\Tests\ACM.BLTest\bin\Debug\CustomerManagementSystem.BL.dll
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\Tests\ACM.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\Tests\ACM.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\Tests\ACM.BLTest\bin\Debug\CustomerManagementSystem.BL.pdb
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\Tests\ACM.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\Tests\ACM.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\Tests\ACM.BLTest\obj\Debug\ACM.BLTest.csproj.AssemblyReference.cache
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\Tests\ACM.BLTest\obj\Debug\ACM.BLTest.csproj.CoreCompileInputs.cache
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\Tests\ACM.BLTest\obj\Debug\ACM.BLTest.csproj.CopyComplete
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\Tests\ACM.BLTest\obj\Debug\ACM.BLTest.dll
+C:\Users\Rishabh.Gupta\source\repos\CustomerManagementSystem\Tests\ACM.BLTest\obj\Debug\ACM.BLTest.pdb
