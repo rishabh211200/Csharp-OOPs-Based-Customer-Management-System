@@ -76,11 +76,11 @@ namespace CustomerManagementSystem.BL
 
 
         /////////********************//////////////
-        //public bool Save()
-        //{
-        //    //Code to save current customer
-        //    return true;
-        //}
+        public bool Save()
+        {
+            //Code to save current customer
+            return true;
+        }
 
 
 
