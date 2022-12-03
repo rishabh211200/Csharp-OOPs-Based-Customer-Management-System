@@ -8,7 +8,19 @@ namespace CustomerManagementSystem.BL
 {
     public class Customer
     {
-        public int CustomerID { get; private set; } //any caller can get this ID but only this class can set it
+        //Constructors - normally defined at top of class above the properties
+        /*
+        A constructor is a special method that is used to initialize objects.
+        The advantage of a constructor, is that it is called when an object of a class is created.
+        It can be used to set initial values for fields 
+        */
+        public Customer() { }// if there is no need don't create one implicit will work by default
+        //when there is overloaded constructor defined then default one wouldn't be created.
+        public Customer(int customerId) //Since customer id is having private setter it can't be set outside od this class
+        {
+            customerId = CustomerId;
+        }
+        public int CustomerId { get; private set; } //any caller can get this ID but only this class can set it
         public string EmailAddress { get; set; }
         public string FirstName { get; set; } //Behind the code it is implementing Backing field automatically.
 
@@ -49,6 +61,9 @@ namespace CustomerManagementSystem.BL
                 _lastName = value;
             }
         }
+        /*************Overloading in retrieving method as method name is same but 
+        *****************one is having parameter and one doesn't****************/
+        
         /// <summary>
         /// Retrieve One Customer
         /// </summary>
@@ -71,11 +86,7 @@ namespace CustomerManagementSystem.BL
         /// <summary>
         ///  Saves the current customer
         /// </summary>
-        /// <returns></returns>
-        /// 
-
-
-        /////////********************//////////////
+        /// <returns></returns>        
         public bool Save()
         {
             //Code to save current customer

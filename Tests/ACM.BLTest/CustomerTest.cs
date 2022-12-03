@@ -15,7 +15,7 @@ namespace CMS.BLTest
             Customer customer = new Customer
             {
                 FirstName = "Bilbo",
-                LastName = "Baggins"   
+                LastName = "Baggins"
             };
             string expected = "Baggins, Bilbo";
             //--Act
@@ -47,7 +47,7 @@ namespace CMS.BLTest
             var c1 = new Customer();
             c1.FirstName = "Bilbo";
             Customer.InstanceCount += 1;
-            
+
             var c2 = new Customer();
             c2.FirstName = "Frodo";
             Customer.InstanceCount += 1;
