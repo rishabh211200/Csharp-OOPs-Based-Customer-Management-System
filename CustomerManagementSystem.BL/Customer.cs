@@ -16,9 +16,9 @@ namespace CustomerManagementSystem.BL
         */
         public Customer() { }// if there is no need don't create one implicit will work by default
         //when there is overloaded constructor defined then default one wouldn't be created.
-        public Customer(int customerId) //Since customer id is having private setter it can't be set outside od this class
+        public Customer(int customerId) //Since customer id is having private setter it can't be set outside of this class
         {
-            customerId = CustomerId;
+            CustomerId = customerId;
         }
         public int CustomerId { get; private set; } //any caller can get this ID but only this class can set it
         public string EmailAddress { get; set; }
