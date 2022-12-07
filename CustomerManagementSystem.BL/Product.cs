@@ -14,7 +14,7 @@ namespace CustomerManagementSystem.BL
         }
         public Product(int productID)
         {
-            ProductID = productID;
+            ProductId = productID;
         }
         public decimal? CurrentPrice { get; set; }
         public string ProductDescription { get; set; }
