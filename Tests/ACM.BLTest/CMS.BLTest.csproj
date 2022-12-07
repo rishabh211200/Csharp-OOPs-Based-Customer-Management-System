@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="CustomerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProductTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
