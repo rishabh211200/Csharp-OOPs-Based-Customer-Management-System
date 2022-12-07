@@ -24,7 +24,7 @@ namespace CustomerManagementSystem.BL
         public string EmailAddress { get; set; }
         public string FirstName { get; set; } //Behind the code it is implementing Backing field automatically.
 
-        //Static modifier
+        //Static modifier for testing purpose
         // use static modifier to declare members that belong to a class
         // not a instance of the class.
         public static int InstanceCount { get; set; }

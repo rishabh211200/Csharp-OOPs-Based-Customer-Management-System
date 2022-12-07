@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CustomerManagementSystem.BL
 {
-    class OrderItem
+    public class OrderItem
     {
     }
 }
