@@ -17,7 +17,7 @@ namespace CustomerManagementSystem.BL
             OrderID = orderID;
         }
         public int OrderID { get; private set; }
-        public DateTime OrderDate { get; set; }
+        public DateTimeOffset? OrderDate { get; set; }
 
         /// <summary>
         /// Retrieve One Order
@@ -51,7 +51,7 @@ namespace CustomerManagementSystem.BL
         public bool Validate()
         {
             var isValid = true;
-            
+            if (OrderDate == null) isValid = false;
             return isValid;
         }
     }
