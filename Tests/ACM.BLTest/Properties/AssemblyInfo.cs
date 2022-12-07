@@ -2,11 +2,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("ACM.BLTest")]
+[assembly: AssemblyTitle("CSM.BLTest")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ACM.BLTest")]
+[assembly: AssemblyProduct("CSM.BLTest")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
