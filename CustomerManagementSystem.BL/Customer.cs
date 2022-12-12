@@ -61,39 +61,6 @@ namespace CustomerManagementSystem.BL
                 _lastName = value;
             }
         }
-        /*************Overloading in retrieving method as method name is same but 
-        *****************one is having parameter and one doesn't****************/
-        
-        /// <summary>
-        /// Retrieve One Customer
-        /// </summary>
-        public Customer Retrieve(int customerId)
-        {
-            //code that retrieves defined customer
-            return new Customer();
-        }
-
-        /// <summary>
-        /// Retrieve all customers
-        /// </summary>
-        public List<Customer> Retrieve()
-        {
-            //code that retrieves defined customer
-            return new List<Customer>();
-        }
-
-
-        /// <summary>
-        ///  Saves the current customer
-        /// </summary>
-        /// <returns></returns>        
-        public bool Save()
-        {
-            //Code to save current customer
-            return true;
-        }
-
-
 
         /// <summary>
         /// Validates the customer data
