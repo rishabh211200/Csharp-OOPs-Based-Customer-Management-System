@@ -29,7 +29,7 @@ namespace CustomerManagementSystem.BL
             {
                 customer.FirstName = "Rishabh";
                 customer.LastName = "Gupta";
-                customer.EmailAddress = "rishabh.gupta@gmail.com";
+                customer.EmailAddress = "rishabh211200@gmail.com";
             }
             return customer;
         }
