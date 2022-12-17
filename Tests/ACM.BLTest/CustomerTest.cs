@@ -14,10 +14,10 @@ namespace CMS.BLTest
             //--Arrange
             Customer customer = new Customer
             {
-                FirstName = "Bilbo",
-                LastName = "Baggins"
+                FirstName = "Rishabh",
+                LastName = "Gupta"
             };
-            string expected = "Baggins, Bilbo";
+            string expected = "Gupta, Rishabh";
             //--Act
             string actual = customer.FullName;
             //--Assert
@@ -32,10 +32,8 @@ namespace CMS.BLTest
                 LastName = "Baggins"
             };
             string expected = "Baggins";
-
             //--Act
             string actual = customer.FullName;
-
             //--Assert
             Assert.AreEqual(expected, actual);
 
@@ -72,12 +70,12 @@ namespace CMS.BLTest
             };
             var expected = true;
 
-
             //--Act
             var actual = customer.Validate();
 
             //--Assert
             Assert.AreEqual(expected, actual);
+            
         }
         [TestMethod]
         public void ValidateMissingEmailAddress()

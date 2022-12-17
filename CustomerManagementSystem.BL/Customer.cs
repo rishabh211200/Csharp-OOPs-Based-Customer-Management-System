@@ -29,6 +29,21 @@ namespace CustomerManagementSystem.BL
         // not a instance of the class.
         public static int InstanceCount { get; set; }
 
+        // Declaring property with backing field performing
+        // Encapsulation here as some data is not necessarily meant to access.
+        private string _lastName;   //Backing field- this field holds the data
+        public string LastName // we can use internal also if we want to use it inside project only
+        {
+            get
+            {
+                return _lastName;
+            }
+            set
+            {
+                _lastName = value;
+            }
+        }
+
         public string FullName
         {
             get
@@ -47,21 +62,7 @@ namespace CustomerManagementSystem.BL
             }
         }
 
-        // Declaring property with backing field performing
-        // Encapsulation here as some data is not necessarily meant to access.
-        private string _lastName;   //Backing field- this field holds the data
-        public string LastName // we can use internal also if we want to use it inside project only
-        {
-            get
-            {
-                return _lastName;
-            }
-            set
-            {
-                _lastName = value;
-            }
-        }
-
+        
         /// <summary>
         /// Validates the customer data
         /// </summary>
