@@ -31,7 +31,7 @@ namespace CMS.BLTest
             {
                 LastName = "Baggins"
             };
-            string expected = "Baggins";
+            string expected = "Baggins";      
             //--Act
             string actual = customer.FullName;
             //--Assert
