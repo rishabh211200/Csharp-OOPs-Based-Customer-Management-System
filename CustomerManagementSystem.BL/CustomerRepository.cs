@@ -15,6 +15,8 @@ namespace CustomerManagementSystem.BL
         /// retrieve one customer
         ///</summary>
 
+        // we will create a method ctor which will take customerID as parameter
+        // as we can't declare customer id outside this course as setter is private
         public Customer Retrieve(int customerId)
         {
             // Creates the instance of the customer class

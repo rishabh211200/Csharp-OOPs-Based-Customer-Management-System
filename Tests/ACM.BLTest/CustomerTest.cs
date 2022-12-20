@@ -54,7 +54,7 @@ namespace CMS.BLTest
             c3.FirstName = "Rosie";
             Customer.InstanceCount += 1;
 
-            //--Act
+            
             //--Assert
             Assert.AreEqual(3, Customer.InstanceCount);
         }
