@@ -8,7 +8,7 @@ namespace CustomerManagementSystem.BL
 {
     public class CustomerRepository
     {
-        /* We are seperating t6he responsibilty of validating and saving the data 
+        /* We are seperating the responsibilty of validating and saving the data 
            so that our Business Logic Models doesn't get impacted if any changes occur */
 
         ///<summary>
