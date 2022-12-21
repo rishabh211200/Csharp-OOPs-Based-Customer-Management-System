@@ -14,14 +14,14 @@ namespace ACM.BLTest
             var expected = new Product(1)
             {
                 CurrentPrice = 400.32M,
-                ProductName = "Rich dad poor dad book",
-                ProductDescription = "Paperback Book hard cover 416 gsm"
+                ProductName = "Rich dad Poor dad Book",
+                ProductDescription = "Hard cover book paperback 416 gsm"
             };
             //--Act
             var actual = productRepository.Retrieve(1);
             //--Assert
             Assert.AreEqual(expected.ProductName, actual.ProductName);
-            //Assert.AreEqual(expected.ProductName, actual.ProductDescription);
+            Assert.AreEqual(expected.ProductDescription, actual.ProductDescription);
             Assert.AreEqual(expected.CurrentPrice, actual.CurrentPrice);
         }
     }

@@ -21,7 +21,7 @@ namespace CustomerManagementSystem.BL
             //Code that retrieves the defined product
             //Temporary hard-coded values to return
             //a populated product
-            if (productId == 2)
+            if (productId == 1)
             {
                 product.ProductName = "Rich dad Poor dad Book";
                 product.ProductDescription = "Hard cover book paperback 416 gsm";
