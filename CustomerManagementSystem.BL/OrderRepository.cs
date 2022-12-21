@@ -1,5 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,9 +9,5 @@ namespace CustomerManagementSystem.BL
     class OrderRepository
     {
         
-        public void test()
-        {
-
-        }
     }
 }
