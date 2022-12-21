@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CustomerManagementSystem.BL
 {
-    class ProductRepository
+    public class ProductRepository
     {
         /// <summary>
         /// Retrieve one product
